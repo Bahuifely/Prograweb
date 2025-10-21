@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Block de Notas</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #fef9c3;
-      padding: 20px;
-    }
-    .nota {
-      background: #fff;
-      border: 1px solid #ccc;
-      padding: 20px;
-      width: 300px;
-      height: 200px;
-      box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Web de Fely Barreno</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="nota">
-    Este es mi primer despliegue en vercel y pruba de CI|CD
-  </div>
+    <header>
+        <h1>Bienvenidos a mi página</h1>
+        <p>Creada por <strong>Fely Barreno</strong></p>
+    </header>
+
+    <main>
+        <section class="presentacion">
+            <h2>Sobre mí</h2>
+            <p>
+                Soy estudiante de Técnico en Informática en la Universidad del Valle de Guatemala - Campus Altiplano. 
+                Me apasiona la tecnología, la educación y los proyectos que contribuyen al desarrollo social.
+            </p>
+        </section>
+
+        <section class="proyectos">
+            <h2>Mis proyectos</h2>
+            <ul>
+                <li>💻 Aplicación móvil educativa en Flutter</li>
+                <li>🌱 Plataforma de encuestas con React y Laravel</li>
+                <li>📚 Red social de libros para jóvenes lectores</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Fely Barreno | Desarrollado para práctica de despliegue en Netlify</p>
+    </footer>
 </body>
 </html>
